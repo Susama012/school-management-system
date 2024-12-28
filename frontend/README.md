@@ -5,11 +5,11 @@
 1. Clone the project
 
 ```
-   
+   git clone https://github.com/Susama012/school-management-system
 ```
 
 2. Move into the directory
-
+   cd school-management-system
 ```
    
 ```
