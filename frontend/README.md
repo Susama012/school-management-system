@@ -9,8 +9,8 @@
 ```
 
 2. Move into the directory
-   cd school-management-system
 ```
+   cd school-management-system
    
 ```
 

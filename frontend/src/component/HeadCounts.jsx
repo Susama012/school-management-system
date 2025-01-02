@@ -4,7 +4,7 @@ function HeadCounts({ type, count }) {
     return (
         <>
             <div className="flex flex-col p-4 bg-orange-400 
-            rounded-lg shadow-md w-56">
+            rounded-xl shadow-md w-48 even:bg-blue-400">
                 <div className="flex justify-between items-center w-full ">
                     <div className="text-center text-sm h-6 w-20 rounded-full
                      bg-slate-50 text-green-500">
@@ -20,4 +20,4 @@ function HeadCounts({ type, count }) {
         </>
     )
 }
-export default HeadCounts
+export default HeadCounts;

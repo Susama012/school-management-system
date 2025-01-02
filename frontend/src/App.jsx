@@ -13,10 +13,10 @@ function App() {
           <Menu />
         </div>
         {/* RIGHT */}
-        <div className="w-[80%]  sm:w-[84%] md:w-[88%] lg:w-[84%] bg-slate-300 relative">
+        <div className="w-[80%]  sm:w-[84%] md:w-[88%] lg:w-[84%] bg-slate-300 min-h-screen relative">
           <Navbar />
           <Outlet />
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </div>
     </>
