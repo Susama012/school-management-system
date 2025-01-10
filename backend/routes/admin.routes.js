@@ -1,5 +1,5 @@
 import { Router } from "express"
-import { adminLogin } from "../auth/admin.auth.js"
+import { adminLogin, forgetPassword } from "../auth/admin.auth.js"
 
 const adminRouter = Router()
 
@@ -9,11 +9,13 @@ const adminRouter = Router()
 adminRouter.get("/", (req, res) => res.send("admin router is working"))
 
 //login
-adminRouter.post("/login", adminLogin)
+adminRouter.post("/login", adminLogin)  
 
 //forget password(generate OTP)
+adminRouter.post("/otp/create", forgetPassword)
 
-//change password
+//change password(verify password)
+
 
 //add student
 
