@@ -10,16 +10,17 @@ const adminRouter = Router()
 adminRouter.get("/", (req, res) => res.send("admin router is working"))
 
 //login
-adminRouter.post("/login", adminLogin)  
+adminRouter.post("/login", adminLogin)  //http://127.0.0.4:4000/admin/login
 
 //forget password(generate OTP)
-adminRouter.post("/otp/create", forgetPassword)
+adminRouter.post("/otp/create", forgetPassword) //http://127.0.0.4:4000/admin/otp/create
 
 //verify password
-adminRouter.post("/otp/verify", verifyOTP)
+adminRouter.post("/otp/verify", verifyOTP)  //http://127.0.0.4:4000/admin/otp/verify
 
 //change password
-adminRouter.post("/changepassword", verifyToken, changePassword)
+adminRouter.post("/changepassword", verifyToken, changePassword)  //http://127.0.0.4:4000/admin/changepass
+
 //add student
 
 //add teacher
